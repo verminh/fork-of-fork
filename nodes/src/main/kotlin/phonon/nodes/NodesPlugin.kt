@@ -167,11 +167,11 @@ public class NodesPlugin : JavaPlugin() {
         logger.info("Enabled in ${timeLoad}ms")
 
         // print success message
-        logger.info("now this is epic")
+        logger.info("agora, isso é épico... ou seria se o phonon não gostasse de cavalos. Nodes Habilitado")
     }
 
     override fun onDisable() {
-        logger.info("wtf i hate xeth now")
+        logger.info("wtf eu odeio o xeth agora. Nodes Desabilitado")
 
         Nodes.enabled = false
 
